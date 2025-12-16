@@ -322,13 +322,13 @@ function App() {
                   <i />
                   VISIÓN DE LARGO PLAZO
                 </div>
-                <h1 style={{ marginTop: 16 }}>
+                <h1 className="script-title" style={{ marginTop: 16 }}>
                   Construimos patrimonio con visión de décadas.
                 </h1>
                 <p>
                   Plumora Industris es un grupo en formación que integra tecnología, inversión y
                   futuros proyectos inmobiliarios para diseñar estructuras de valor que duren toda
-                  una vida.
+                  una <em className="accent-em">vida completa</em>.
                 </p>
 
                 <div className="hero-actions">
@@ -403,8 +403,8 @@ function App() {
               <p className="lead">
                 Plumora nace con una idea simple: unir en una misma casa lo que normalmente está
                 separado. Ingeniería de software, estrategia legal e inversión se combinan para
-                crear proyectos que no dependan de la suerte, sino de disciplina y visión a largo
-                plazo.
+                crear proyectos que no dependan de la suerte, sino de{" "}
+                <em className="accent-em">disciplina y visión a largo plazo</em>.
               </p>
             </header>
 
@@ -427,7 +427,7 @@ function App() {
               <div className="underbar" />
               <p className="lead">
                 Plumora Industris está fundada por tres perfiles complementarios que comparten la
-                misma obsesión: construir algo sólido, paciente y bien hecho.
+                misma obsesión: construir algo <em className="accent-em">sólido, paciente y bien hecho</em>.
               </p>
             </header>
 
@@ -451,7 +451,7 @@ function App() {
               <p className="lead">
                 Plumora está en una etapa temprana. No presumimos de lo que todavía no existe;
                 estamos sentando las bases de lo que queremos que sea un grupo sólido en los
-                próximos 10 a 20 años.
+                próximos <em className="accent-em">10 a 20 años</em>.
               </p>
             </header>
 
@@ -473,8 +473,8 @@ function App() {
               <h2>El futuro se construye con paciencia.</h2>
               <div className="underbar" />
               <p className="lead">
-                Un plan no es una promesa: es una dirección. Esto es lo que buscamos ir consolidando
-                por etapas, con foco en consistencia y ejecución.
+                Un plan no es una promesa: es una <em className="accent-em">dirección</em>. Esto es lo
+                que buscamos ir consolidando por etapas, con foco en consistencia y ejecución.
               </p>
             </header>
 
